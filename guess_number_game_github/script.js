@@ -27,7 +27,7 @@ document.querySelector('.check').addEventListener('click', function () {
       score--;
       document.querySelector('.score').textContent = score;
     } else {
-      displayMessage('🧨 Ты проиграла!');
+      displayMessage('🧨 Ты проиграл!');
       document.querySelector('.score').textContent = 0;
       document.querySelector('body').style.backgroundColor = '#541e1b';
     }
